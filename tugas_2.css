@@ -1,0 +1,1194 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    width: 100%;
+    height: 8vh;
+    background-color:#F5F5EF;
+    position: fixed;
+    z-index: 1000;
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+    
+}
+.header-content1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #F5F5EF;
+    width: 100%;
+    height: 8vh;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #304254;
+    font-weight: bold;
+}
+.dashboard-container{
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    background-color: #F5F5EF ;
+    height: 1100vh;
+    width: 100%;
+    padding-right: 8px;
+}
+.dashboard-content1{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    width: 1247px;
+    height: 100vh;
+}
+.imagecontainer{
+width: 100%;
+position: relative;
+margin-top: 38px;
+animation: fadeIn 1.5s ease-in-out;
+}
+.imagescontent1{
+    position: relative;
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: -50px;
+}
+.teksimage1{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    align-items:center;
+    width: 200px;
+    height: 7vh;
+    border-radius: 50px;
+    background-color:#0F3C28;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 150px;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.teksimage2{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    margin-top: -340px;
+    font-weight: 850;
+    margin-left: 140px;
+    width: 1010px;
+    font-family: sans-serif;
+}
+.content2{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: start;
+    align-items: start;
+    background-color:#F5F5EF;
+    height: 100vh;
+    width: 100%;
+    margin-top: 120px;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 0.5s;
+}
+.images1content2{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+    margin: left;
+    margin-left: 160px;
+}
+.images2content2{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: start;
+    align-items: center;
+    margin: left;
+    margin-left: 160px;
+    margin-top: -230px;
+}
+.teks1content2{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 70vh;
+    width: 65%;
+    font-family: sans-serif;
+    padding-left: 30px;
+    margin-top: -15px;
+}
+.kata1{
+ font-weight: 600;
+ font-size: 20px;
+ display: grid;
+ justify-content: start;
+ align-items: center;
+}
+.kata2{
+    font-weight: 700;
+    font-size: 40px;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-top: -10px;
+    
+}
+.kata3{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-top: -10px;
+}
+.kata4{
+    font-weight: 600;
+    font-size: 20px;
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30px;
+}
+.kata5{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-top: -10px;
+}
+.kata6{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0F3C28;
+    height: 7vh;
+    width: 450px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+.kata6:hover{
+    background-color: green;
+}
+.content3{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    justify-content: start;
+    align-items: start;
+    background-color:#F5F5EF;
+    height: 100vh;
+    width: 100%;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 1s;
+}
+.images1content3{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+    margin: left;
+    margin-left: 90px;
+}
+.images2content3{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+    margin: left;
+    margin-left: 40px;
+    margin-top: 120px;
+}
+.teks1content3{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 100vh;
+    width: 70%;
+    font-family: sans-serif;
+    padding-left: 60px;
+    margin-top: -15px;
+}
+.kata1content3{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+.kata2content3{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+       
+}
+.kata3content3{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.kata4content3{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.kata5content3{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F3C28;
+    color: white;
+    height: 7vh;
+    width: 270px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.content4{
+    display: grid;
+    grid-column: 1;
+    grid-row: 5;
+    justify-content: start;
+    align-items: start;
+    background-color:white;
+    height: 100vh;
+    width: 100%;
+    margin-top: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 1.5s;
+}
+.isitekscontent4{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 90vh;
+    width: 60%;
+    font-family: sans-serif;
+    margin-left: 90px;
+}
+.kata1content4{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.kata2content4{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    margin-top: -200px;   
+}
+.images1content4{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+    margin-right: 50px;
+}
+.images2content4{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+    margin-right: 80px;
+}
+.content5{
+    display: grid;
+    grid-column: 1;
+    grid-row: 6;
+    justify-content: start;
+    align-items: start;
+    background-color:white;
+    height: 20vh;
+    width: 100%;
+    font-family: sans-serif;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 2s;
+}
+.isitekscontent5{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 20vh;
+    width: 90%;
+    font-family: sans-serif;
+    margin-left: 90px;
+}
+.kata1content5{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.kata2content5{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700; 
+    margin-top: -40px;
+}
+.content6{
+    display: grid;
+    grid-column: 1;
+    grid-row: 7;
+    justify-content: start;
+    align-items: start;
+    background-color:white;
+    height: 80vh;
+    width: 1100px;
+    font-family: sans-serif;
+    column-gap: 90px;
+    margin-left: 90px;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 2.5s;
+}
+.images1content6{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+}
+.images2content6{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+}
+.images3content6{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+    margin-right: 200px;
+}
+.isiteksimage1content6{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 30vh;
+    width: 100%;
+    font-family: sans-serif;
+    margin-top: -40px;
+}
+.kata1content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+.kata2content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-top: -25px;
+}
+.kata3content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 60px;
+    margin-top: -10px;
+}
+.isiteksimage2content6{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 30vh;
+    width: 100%;
+    font-family: sans-serif;
+    margin-top: -40px;
+}
+.kata4content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+.kata5content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-top: -25px;
+}
+.kata6content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 60px;
+    margin-top: -10px;
+}
+.isiteksimage3content6{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 30vh;
+    width: 300px;
+    font-family: sans-serif;
+    margin-top: -40px;
+}
+.kata7content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+.kata8content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin-top: -25px;
+}
+.kata9content6{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 12px;
+    margin-bottom: 60px;
+    margin-top: -10px;
+}
+.content7{
+    display: grid;
+    grid-column: 1;
+    grid-row: 8;
+    justify-content: start;
+    align-items: start;
+    background-color:white;
+    height: 80vh;
+    width: 1100px;
+    font-family: sans-serif;
+    column-gap: 90px;
+    margin-left: 90px;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 3s;
+}
+.images1content6{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center;
+}
+.isiteksimage1content7{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 20vh;
+    width: 300px;
+    font-family: sans-serif;
+}
+.kata1content7{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    margin-top: -10px;
+}
+.kata2content7{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 60px;
+    margin-top: -85px;
+}
+.isitekscontent7{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    height: 60vh;
+    width: 450px;
+    font-family: sans-serif;
+    margin-left: -30px;
+}
+.kata3content7{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.kata4content7{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+    margin-top: -25px;
+}
+.kata5content7{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+}
+.kata6content7{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 20px;
+}
+.kata7content7{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F3C28;
+    font-size: 25px;
+    width: 270px;
+    height: 7vh;
+    color: white;
+    border-radius: 50px;
+
+    margin-top: -20px;
+}
+.content8{
+    display: grid;
+    grid-column: 1;
+    grid-row: 9;
+    justify-content: start;
+    align-items: start;
+    background-color:#0F3C28;
+    height: 110vh;
+    width: 100%;
+    font-family: sans-serif;
+    column-gap: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 3.5s;
+}
+.isiheadercontent8{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: #0F3C28;
+    height: 20vh;
+    width: 320px;
+    font-family: sans-serif;
+}
+.isi1content8{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: #0F3C28;
+    height: 60vh;
+    width: 320px;
+    font-family: sans-serif;
+    margin-left: 90px;
+    margin-top: 270px;
+}
+.kata1content8{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+.kata2content8{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin-top: -40px;
+}
+.kata3content8{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    margin-top: -40px;
+}
+.isi2content8{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: #0F3C28;
+    height: 60vh;
+    width: 320px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 270px;
+}
+.kata4content8{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+.kata5content8{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin-top: -85px;
+}
+.kata6content8{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    margin-top: -40px;
+}
+.isi3content8{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: #0F3C28;
+    height: 60vh;
+    width: 320px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 270px;
+}
+.kata7content8{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    text-decoration: underline;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+.kata8content8{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    margin-top: -80px;
+}
+.kata9content8{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    margin-top: -40px;
+}
+.images1content8{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: end;
+    align-items: center; 
+    transform: scaleX(-1);
+    margin-top: 210px;
+    margin-left: 90px;
+}
+.images2content8{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: end;
+    align-items: center; 
+    transform: scaleX(-1);
+    margin-top: 210px;
+}
+.images3content8{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    justify-content: end;
+    align-items: center; 
+    transform: scaleX(-1);
+    margin-top: 210px;
+}
+.kataheadercontent8{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    width: 800px;
+    color: white;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.content9{
+    display: grid;
+    grid-column: 1;
+    grid-row: 10;
+    justify-content: start;
+    align-items: start;
+    background-color:white;
+    height: 120vh;
+    width: 100%;
+    font-family: sans-serif;
+    column-gap: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+    animation-delay: 4s;
+}
+.isiheadercontent9{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    color: black;
+    height: 20vh;
+    width: 320px;
+    font-family: sans-serif;
+}
+.kataheadercontent9{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    width: 800px;
+    color: black;
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.images1content9{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center; 
+    margin-left: 120px;
+    margin-top: 130px;
+}
+.images2content9{
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center; 
+    margin-top: 130px;
+}
+.images3content9{
+    display: grid;
+    grid-column: 3;
+    grid-row: 1;
+    justify-content: start;
+    align-items: center; 
+    margin-top: 130px;
+}
+.images4content9{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: start;
+    align-items: center; 
+    margin-left: 120px;
+    margin-top: -50px;
+}
+.images5content9{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    justify-content: start;
+    align-items: center; 
+    margin-top: -50px;
+}
+.images6content9{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    justify-content: start;
+    align-items: center; 
+    margin-top: -50px;
+}
+.content10{
+    display: grid;
+    grid-column: 1;
+    grid-row: 11;
+    justify-content: start;
+    align-items: start;
+    height: 80vh;
+    width: 100%;
+    font-family: sans-serif;
+    column-gap: 10px;
+}
+.images1content10{
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 170px;
+}
+.content11{
+    display: grid;
+    grid-column: 1;
+    grid-row: 12;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    width: 100%;
+    font-family: sans-serif;
+}
+.isiheadercontent11{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    width: 300px;
+    margin-top: -40px;
+}
+.isiteks1content11{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    width: 300px;
+    height: 8vh;
+    margin-top: -180px;
+}
+.isiteks2content11{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 300px;
+    height: 8vh;
+    margin-top: -180px;
+}
+.isiteks3content11{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3;
+    grid-row: 2;
+    width: 300px;
+    height: 8vh;
+    margin-top: -180px;
+}
+.kata1content11{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.kata2content11{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.kata3content11{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.images1content11{
+    display: grid;
+    grid-column: 1;
+    grid-row: 3;
+    justify-content: center;
+    align-items: center;
+    margin-top: -170px;
+
+}
+.images2content11{
+    display: grid;
+    grid-column: 2;
+    grid-row: 3;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -170px;
+}
+.images3content11{
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    justify-content: center;
+    align-items: center; 
+    margin-top: -170px;
+}
+.content12{
+    display: grid;
+    grid-column: 1;
+    grid-row: 13;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #0F3C28;
+    font-family: sans-serif;
+    color: white;
+}
+.isi1content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 1;
+    width: 300px;
+    height: 20vh;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.kata1content12{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    font-weight: 700;
+}
+.kata2content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    margin-top: -25px;
+}
+.kata3content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    margin-top: -35px;
+}
+.isi2content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    width: 300px;
+    height: 25vh;
+    margin-left: 100px;
+    margin-bottom: 350px;
+}
+.kata4content12{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    margin-top: -20px;
+    font-weight: 700;
+}
+.kata5content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.kata6content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 30px;
+
+}
+.kata7content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.isi3content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 1;
+    width: 270px;
+    height: 25vh;
+    margin-left: 470px;
+    margin-top: 40px;
+}
+.kata8content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+.kata9content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    font-size: 17px;
+    margin-top: -25px;
+}
+.isi4content12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 400px;
+    height: 15vh;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.kata10content12{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.kata11content12{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    margin-top: -25px;
+}
+.imagecontent12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-column: 1;
+    grid-row: 2;
+    width: 30px;
+    height: 17vh;
+    margin-left: 100px;
+    margin-bottom: 320px;
+}
+.imageskeduacontent12{
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    grid-column: 2;
+    grid-row: 2;
+    width: 400px;
+    height: 50vh;
+    margin-left: 50px;
+    background-color: red;
+    margin-top: -480px;
+}
+@keyframes slide-right {
+    from {
+      transform: translateY(100px); /* mulai dari luar layar sebelah kiri */
+    }
+    to {
+      transform: translateY(0); /* berakhir di posisi aslinya */
+    }
+  }
+.imagecontainer{
+    animation-name: slide-right;
+}
+.content2{
+    animation-name: slide-right;
+}
+.content3{
+    animation-name: slide-right;
+}
+.content4{
+    animation-name: slide-right;
+}
+.content5{
+    animation-name: slide-right;
+}
+.content6{
+    animation-name: slide-right;
+}
+.content7{
+    animation-name: slide-right;
+}
+.content8{
+    animation-name: slide-right;
+}
+.content9{
+    animation-name: slide-right;
+}
